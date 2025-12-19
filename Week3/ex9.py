@@ -18,6 +18,5 @@ class Car(Vehicle):
 
 v = Vehicle("BMW", 2024)
 c = Car("Toyota", 2020, "Corolla")
-
 v.info()
 c.info()
