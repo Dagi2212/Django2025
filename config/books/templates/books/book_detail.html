@@ -1,0 +1,4 @@
+<h2>{{ book.title }}</h2>
+<p>Author: {{ book.author.name }}</p>
+<p>ISBN: {{ book.isbn }}</p>
+<a href="{% url 'delete_book' book.id %}">Delete</a>
